@@ -1,0 +1,24 @@
+{
+  "name": "five",
+  "version": "1.0.0",
+  "description": "crud node api",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "crud-node-first"
+  },
+  "author": "Rohit Raj Singh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "openssl-nodejs": "^1.0.5",
+    "uuid": "^9.0.0"
+  }
+}
